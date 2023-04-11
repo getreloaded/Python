@@ -13,7 +13,7 @@ def main():
         sys.exit("Arguement has to be float")
         
     x = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
-    #print (json.dumps(x.json(), indent=2))
+    print (json.dumps(x.json(), indent=2))
     
     if not (x) :sys.exit("Request Error") # " x " evaluates to True due to the behaviour coded in requests module.
 

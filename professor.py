@@ -82,7 +82,7 @@ def main():
         else:
             continue
     
-    print(score)
+    print(f"You score is: {score}/{max_questions}")
     
 if __name__ == "__main__":
     main()
