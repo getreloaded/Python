@@ -26,5 +26,6 @@ def main():
     text = input("Input : ")
     print(figlet.renderText(text))
     
-main()
+if __name__ == "__main__":
+    main()
     

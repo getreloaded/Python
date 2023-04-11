@@ -12,6 +12,7 @@ def fib(number):
 def main():
     fib(int(input("How many? ")))
     
-main()
+if __name__ == "__main__":
+    main()
         
         

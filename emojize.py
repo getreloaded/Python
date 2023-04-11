@@ -5,4 +5,5 @@ def main():
     x = str(input("Input: "))
     print(emoji.emojize(x))
 
-main()
+if __name__ == "__main__":
+    main()

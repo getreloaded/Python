@@ -15,4 +15,5 @@ def main():
     name_list = inflect.engine().join(names)
     print("Adieu, Adieu, to " + name_list)
 
-main()        
+if __name__ == "__main__":
+    main()      

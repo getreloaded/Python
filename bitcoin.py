@@ -21,4 +21,5 @@ def main():
     total = rate_btc * value_btc
     print (f"${float(total):,.4f}")
 
-main()
+if __name__ == "__main__":
+    main()

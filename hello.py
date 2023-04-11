@@ -13,5 +13,6 @@ def get_int(prompt):
 def count_word(sentence, word):
     return sentence.count(f'{word}')
         
-main ()
+if __name__ == "__main__":
+    main()
             
